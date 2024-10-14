@@ -191,3 +191,128 @@ li a{
 
     width: 600px;
 }
+
+#servicos-helpdesk{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./img/Backgroud-helpdesk.jpg);
+    background-size: cover;
+    background-position: 0;
+}
+
+#logo-redondo{
+    position: absolute;
+    width: 1000px;
+    border-radius: 50%;
+    /*background-color: rgba(2, 12, 21, 0.89);*/
+    top: 37%;
+    left: 53.5%;
+
+}
+
+.Motivos{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.Motivos p{
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.circulo-motivos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+    background-color: rgba(2, 12, 21, 0.89);
+    border-radius: 50%;
+}
+
+.circulo-motivos img{
+    filter: blur(10px) invert(100%) brightness(2);
+}
+
+
+
+#circulo-cifrao{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 49.5%;
+    left: 31.3%;
+}
+#circulo-relatorio{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 21%;
+    left: 34.8%;
+}
+
+#circulo-agil{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 3%;
+    left: 47%;
+}
+
+#circulo-solucao{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 21%;
+    left: 76%;
+}
+
+#circulo-seguranca{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 49.3%;
+    left: 80%;
+}
+
+#Suporte{
+    top: 77%;
+    left: 20%;
+}
+
+#Custos{
+    top: 48%;
+    left: 20%;
+}
+
+#Relatorios{
+    top: 17%;
+    left: 19%;
+}
+
+#Flexibilidade{
+    top: 3%;
+    left: 29%;
+}
+
+#Experiencia{
+    top: 2%;
+    left: 74%;
+}
+
+#Eficienicia{
+    top: 20%;
+    left: 86%;
+}
+
+#Segurança{
+    top: 46%;
+    left: 90%;
+}
+#Respostas{
+    top: 78%;
+    left: 87%;
+    background-color: rgba(0, 0, 0, 0);
+}
