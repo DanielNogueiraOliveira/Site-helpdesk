@@ -21,27 +21,28 @@ body{
     display: flex;
     background-color: rgb(6, 66, 221);
 }
-#menu{ 
-    margin: 100px;
+
+#menu {
+    margin: 20px 10px;
     display: flex;
     width: 100%;
     display: flex;
     align-items: center;
-    
 }
 
-ul{
+#menu ul{
     display: flex;
     margin-top: 16px;
-    flex-direction: row;
     list-style: none;
 
 }
-li a{
-    margin: 15px;
+
+#menu li a {
+    margin: 33px;
     color: #fff;
     text-decoration: none;
 }
+
 
 .home{
     display: grid;
@@ -201,82 +202,91 @@ li a{
     background-position: 0;
 }
 
-#logo-redondo{
+#circulo-logo{
     position: absolute;
-    width: 1000px;
+    width: 1090px;
+    height: 1020px;
+    top: 39%;
+    left: 52.8%;
+    background-color: rgba(2, 14, 22, 0.66);
     border-radius: 50%;
-    /*background-color: rgba(2, 12, 21, 0.89);*/
-    top: 37%;
-    left: 53.5%;
-
 }
 
-.Motivos{
+#logo-circulo{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.568);
-}
+    width: 921px;
+    top: 46%;
+    left: 54%;
 
-.Motivos p{
-    padding: 15px;
-    color: #fff;
-    border-radius: 15px;
 }
 
 .circulo-motivos{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 800px;
-    height: 800px;
-    background-color: rgba(2, 12, 21, 0.89);
+    width: 9%;
+    height: 16.6%;
+    background-color: rgba(1, 13, 21, 0.982);
     border-radius: 50%;
 }
 
 .circulo-motivos img{
-    filter: blur(10px) invert(100%) brightness(2);
+    filter: blur(4px) invert(100%) brightness(2);
+    width: 80%;
 }
-
-
 
 #circulo-cifrao{
     position: absolute;
-    width: 10%;
-    height: 20%;
-    top: 49.5%;
-    left: 31.3%;
+    top: 51.2%;
+    left: 32%;
+    width: 499px;
+    height: 489px;
+    background-color: rgba(0, 16, 21, 0.991);
 }
 #circulo-relatorio{
     position: absolute;
-    width: 10%;
-    height: 20%;
-    top: 21%;
-    left: 34.8%;
+    top: 22.6%;
+    left: 35.4%;
 }
 
 #circulo-agil{
     position: absolute;
-    width: 10%;
-    height: 20%;
-    top: 3%;
-    left: 47%;
+    top: 5%;
+    left: 47.7%;
 }
 
 #circulo-solucao{
     position: absolute;
-    width: 10%;
-    height: 20%;
-    top: 21%;
-    left: 76%;
+    top: 22.8%;
+    left: 76.8%;
+    width: 494px;
+    height: 478px;
+    background-color: rgb(2 14 28);
 }
 
 #circulo-seguranca{
     position: absolute;
-    width: 10%;
-    height: 20%;
-    top: 49.3%;
-    left: 80%;
+    top: 51.3%;
+    left: 80.6%;
+    background-color: rgb(31, 45, 55,0.99) 
 }
 
+
+.Motivos{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 25px;
+    height: 130px;
+}
+
+.Motivos p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px;
+}
 #Suporte{
     top: 77%;
     left: 20%;
@@ -284,35 +294,36 @@ li a{
 
 #Custos{
     top: 48%;
-    left: 20%;
+    left: 21%;
 }
 
 #Relatorios{
-    top: 17%;
+    top: 19%;
     left: 19%;
 }
 
 #Flexibilidade{
     top: 3%;
-    left: 29%;
+    left: 30%;
 }
 
 #Experiencia{
     top: 2%;
-    left: 74%;
+    left: 73%;
 }
 
 #Eficienicia{
     top: 20%;
-    left: 86%;
+    left: 85%;
 }
 
 #Segurança{
     top: 46%;
-    left: 90%;
+    left: 89.5%;
+    width: 443px;
+    height: 225px;
 }
 #Respostas{
     top: 78%;
-    left: 87%;
-    background-color: rgba(0, 0, 0, 0);
+    left: 87.5%;
 }
