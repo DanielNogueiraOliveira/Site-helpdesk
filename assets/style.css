@@ -48,16 +48,16 @@ body{
     display: grid;
     position: relative;
     width: 100%;
-    min-height: 89.8vh;
+    min-height: 90.1vh;
     background-image: url(../assets/img/Background-novo.jpg) ;
     background-size: cover;
 }
 
-#text{
+.text{
     margin: auto;
     width: 65%;
 }
-#text p{
+.text p{
         font-size: 125px;
         text-align: justify;
         padding: 40px 90px;
@@ -74,7 +74,7 @@ body{
     flex-direction: column;
     position: relative;
     width: 100%;
-    min-height: 89.8vh;
+    min-height: 90.1vh;
     background-image: url(../assets/img/Background-servicos.jpg);
     background-size: cover;
 }
@@ -98,7 +98,7 @@ body{
 
 #hosp-site{
     position: absolute;
-    top: 46%;
+    top: 43%;
     left: 6%;
     background-color: rgba(0, 0, 0, 0.568);
     padding: 10px;
@@ -108,7 +108,7 @@ body{
 #gen-email{
     position: absolute;
     text-align: center;
-    top: 16%;
+    top: 14%;
     left: 20.5%;
     background-color: rgba(0, 0, 0, 0.568);
     border-radius: 20px;
@@ -119,8 +119,8 @@ body{
     display: flex;
     align-items: center;
     position: absolute;
-    top: 78%;
-    left: 35%;
+    top: 75%;
+    left: 36%;
     background-color: rgba(0, 0, 0, 0.568);
     padding: 10px 40px;
     border-radius: 20px;
@@ -130,7 +130,7 @@ body{
     display: flex;
     align-items: center;
     position: absolute;
-    top: 14%;
+    top: 12%;
     left: 66%;
     background-color: rgba(0, 0, 0, 0.568);
     padding: 24px 30px;
@@ -142,7 +142,7 @@ body{
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 45.6%;
+    top: 42.6%;
     left: 84%;
     background-color: rgba(0, 0, 0, 0.568);
     padding: 15px 10px;
@@ -161,26 +161,25 @@ body{
 
 #circulo-site{
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 5.5%;
 }
 
 #circulo-email{
     position: absolute;
-    top: 27%;
+    top: 26%;
     left: 21%;
 }
 
 #circulo-internet{
     position: absolute;
-    top: 27%;
+    top: 26%;
     left: 66.8%;
-    background-color: #4a8097f6;
 }
 
 #circulo-headset{
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 81%;
 }
 
@@ -195,28 +194,28 @@ body{
 
 #servicos-helpdesk{
     position: absolute;
-    height: 100%;
+    min-height: 90.1vh;
     width: 100%;
-    background-image: url(./img/Backgroud-helpdesk.jpg);
+    background-image: url(./img/Background-helpdesk.jpg);
     background-size: cover;
     background-position: 0;
 }
 
 #circulo-logo{
     position: absolute;
-    width: 1090px;
-    height: 1020px;
-    top: 39%;
-    left: 52.8%;
-    background-color: rgba(2, 14, 22, 0.66);
+    width: 1048px;
+    height: 1041px;
+    top: 38%;
+    left: 53.8%;
+    background-color: rgba(2, 14, 22, 0.93);
     border-radius: 50%;
 }
 
 #logo-circulo{
     position: absolute;
     width: 921px;
-    top: 46%;
-    left: 54%;
+    top: 45%;
+    left: 55%;
 
 }
 
@@ -225,7 +224,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 9%;
-    height: 16.6%;
+    height: 17.6%;
     background-color: rgba(1, 13, 21, 0.982);
     border-radius: 50%;
 }
@@ -245,19 +244,21 @@ body{
 }
 #circulo-relatorio{
     position: absolute;
-    top: 22.6%;
+    top: 20.6%;
     left: 35.4%;
 }
 
 #circulo-agil{
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 47.7%;
+    width: 495px;
+    height: 495px;
 }
 
 #circulo-solucao{
     position: absolute;
-    top: 22.8%;
+    top: 20.8%;
     left: 76.8%;
     width: 494px;
     height: 478px;
@@ -267,8 +268,10 @@ body{
 #circulo-seguranca{
     position: absolute;
     top: 51.3%;
-    left: 80.6%;
-    background-color: rgb(31, 45, 55,0.99) 
+    left: 81%;
+    width: 476px;
+    height: 486px;
+    background-color: rgb(31, 45, 55, 0.99);
 }
 
 
@@ -288,12 +291,12 @@ body{
     border-radius: 15px;
 }
 #Suporte{
-    top: 77%;
-    left: 20%;
+    top: 78%;
+    left: 21%;
 }
 
 #Custos{
-    top: 48%;
+    top: 49%;
     left: 21%;
 }
 
@@ -303,27 +306,55 @@ body{
 }
 
 #Flexibilidade{
-    top: 3%;
     left: 30%;
 }
 
 #Experiencia{
-    top: 2%;
     left: 73%;
 }
 
 #Eficienicia{
-    top: 20%;
+    top: 18%;
     left: 85%;
 }
 
 #Segurança{
-    top: 46%;
+    top: 47%;
     left: 89.5%;
     width: 443px;
     height: 225px;
 }
+
 #Respostas{
-    top: 78%;
-    left: 87.5%;
+    top: 79%;
+    left: 86.5%;
+}
+
+.sobre{
+    position: absolute;
+    min-height: 90.07vh;
+    width: 100%;
+    background-image: url(./img/Background-sobre2.png);
+    background-size: cover;
+
+}
+
+.texto-sobre{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 700px;
+}
+
+.texto-sobre h1{
+    font-size: 163px;
+    color: #fff;
+    margin-bottom: 155px;
+    border-radius: 50px;
+}
+
+.texto-sobre p{
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 72px;
 }
