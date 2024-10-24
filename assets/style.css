@@ -56,16 +56,24 @@ body{
 .text{
     margin: auto;
     width: 65%;
+    color: #fff;
 }
 .text p{
         font-size: 125px;
         text-align: justify;
         padding: 40px 90px;
-        color: #fff;
-        background-color: rgba(0, 0, 0, 0.568);
+        background-color: rgba(0, 0, 0, 0.637);
         border-radius: 10px;
 }
 
+#bem-vindos{
+    position: absolute;
+    display: flex;
+    font-size: 200px;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.733);
+    justify-content: center;
+}
 
 #servicos{
     display: flex;
@@ -332,9 +340,9 @@ body{
 
 .sobre{
     position: absolute;
-    min-height: 90.07vh;
+    min-height: 90.1vh;
     width: 100%;
-    background-image: url(./img/Background-sobre2.png);
+    background-image: url(./img/Background-9.jpg);
     background-size: cover;
 
 }
@@ -344,7 +352,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    left: 700px;
+    left: 953px;
 }
 
 .texto-sobre h1{
@@ -355,6 +363,6 @@ body{
 }
 
 .texto-sobre p{
-        background-color: rgba(0, 0, 0, 0.25);
+        background-color: rgba(0, 0, 0, 0.616);
         border-radius: 72px;
 }
