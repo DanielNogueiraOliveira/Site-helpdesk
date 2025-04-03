@@ -37,20 +37,20 @@ body{
 
 
 
-#menu {
+.menu {
     display: flex;
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-#menu ul{
+.menu ul{
     display: flex;
     list-style: none;
 
 }
 
-#menu li a {
+.menu li a {
     margin: 10px;
     color: #fff;
     text-decoration: none;
@@ -58,34 +58,40 @@ body{
 
 
 /* Pagina Home*/
+.background{
+    background-image: url(../assets/img/Background-novo.jpg) ;
+}
 
 .home{
     position: relative;
     width: 100%;
     min-height: 88.6vh;
-    background-image: url(../assets/img/Background-novo.jpg) ;
+    
     background-size: cover;
 }
 
-#bem-vindos{
+.nav-inicio{
+    position: absolute;
+    right: 0;
+    left: 1000PX;
     display: flex;
-    font-size: 80px;
-    margin-bottom: 15px;
-    justify-content: center;
+    width: 100%;
+    align-items: center;
 }
 
-.text{
-    margin: auto;
-    width: 90%;
+
+.nav-inicio ul{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    list-style: none;
+
+}
+
+.nav-inicio li a {
+    margin: 10px;
     color: #fff;
-}
-
-.text p{
-        font-size: 42px;
-        padding: 4px 10px;
-        text-align: justify;
-        background-color: rgba(0, 0, 0, 0.48);
-        border-radius: 10px;
+    text-decoration: none;
 }
 
 
